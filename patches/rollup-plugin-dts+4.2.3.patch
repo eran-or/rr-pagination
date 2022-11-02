@@ -1,0 +1,15 @@
+diff --git a/node_modules/rollup-plugin-dts/dist/rollup-plugin-dts.mjs b/node_modules/rollup-plugin-dts/dist/rollup-plugin-dts.mjs
+index 593e1d9..827c143 100644
+--- a/node_modules/rollup-plugin-dts/dist/rollup-plugin-dts.mjs
++++ b/node_modules/rollup-plugin-dts/dist/rollup-plugin-dts.mjs
+@@ -1467,8 +1467,9 @@ const transform = () => {
+                 compact: false,
+                 freeze: true,
+                 interop: false,
+-                namespaceToStringTag: false,
++                // namespaceToStringTag: false,
+                 strict: false,
++                generatedCode: {symbols:false}
+             };
+         },
+         transform(code, fileName) {

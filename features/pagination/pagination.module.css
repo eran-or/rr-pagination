@@ -1,0 +1,25 @@
+.invisible{
+    visibility: hidden;
+}
+.flex {
+    display: flex;
+}
+.justify-center{
+    justify-items: center;
+}
+.items-center{
+    align-items: center;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.mx-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.text-dodger{
+    color:dodgerblue;
+}
+.list-none{
+    list-style: none;
+}
