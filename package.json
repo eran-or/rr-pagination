@@ -1,6 +1,6 @@
 {
   "name": "@eran-or/rr-pagination",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "Accessible React router pagination for spa and ssr projects",
   "main": "dist/index.js",
   "module": "dist/index.js",
